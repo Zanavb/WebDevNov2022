@@ -1,0 +1,40 @@
+table,th,td{
+    border:1px solid blue;
+    border-collapse: collapse;
+    margin:20px
+}
+
+td{
+    padding:10px;
+    
+}
+
+h1,p,span{
+    color:red;
+}
+
+li{
+    list-style-type: none;
+    display:inline;
+    margin-right:10px;
+}
+
+li:hover{
+    color:white;
+    font-weight: bold;
+}
+
+ul{
+    text-align:center;
+    background:#ff9800;
+    padding:5px;
+}
+
+.menu{
+    color: white;
+}
+
+#navigation{
+    background: black;
+    color:green;
+}
