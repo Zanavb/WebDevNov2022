@@ -1,0 +1,60 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /* reset css */
+}
+
+ul {
+    padding: 0;
+}
+
+* {
+    /*any element in document*/
+}
+
+header {
+    text-align: center;
+    /* background: rgb(17, 12, 64); */
+    background:url(bg.jpg);
+    color: whitesmoke;
+    padding: 20px;
+    font-family:'Bebas Neue';
+    font-size:20pt;
+}
+
+nav {
+    background: rgb(29, 23, 85);
+    color: antiquewhite;
+    padding: 5px;
+    /* margin:10px;
+    border:10px solid red; */
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin-right: 5px;
+    font-size:14pt;
+}
+
+li:hover{
+    color:chartreuse
+}
+
+main{
+    padding:20px;
+}
+
+article{
+    border-bottom: 1px dashed black;
+    /* width: 300px;
+    height:300px; */
+    /* background:red; */
+    /* outline-style: groove;
+    outline-width: 10px;
+    outline-color: red;
+    border:10px solid green; */
+    
+}
+
