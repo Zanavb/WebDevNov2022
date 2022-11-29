@@ -16,11 +16,11 @@ ul {
 header {
     text-align: center;
     /* background: rgb(17, 12, 64); */
-    background:url(bg.jpg);
+    background: url(bg.jpg);
     color: whitesmoke;
     padding: 20px;
-    font-family:'Bebas Neue';
-    font-size:20pt;
+    font-family: 'Bebas Neue';
+    font-size: 20pt;
 }
 
 nav {
@@ -35,18 +35,18 @@ nav {
 li {
     display: inline;
     margin-right: 5px;
-    font-size:14pt;
+    font-size: 14pt;
 }
 
-li:hover{
-    color:chartreuse
+li:hover {
+    color: chartreuse
 }
 
-main{
-    padding:20px;
+main {
+    padding: 20px;
 }
 
-article{
+article {
     border-bottom: 1px dashed black;
     /* width: 300px;
     height:300px; */
@@ -55,6 +55,55 @@ article{
     outline-width: 10px;
     outline-color: red;
     border:10px solid green; */
-    
 }
 
+.icon {
+    font-size: 40pt;
+    color: red;
+  
+}
+
+.icon:hover {
+    color: black;
+    /* -webkit-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.btn{
+    background: white;
+    padding:8px 30px;
+    font-size:14pt;
+    border:2px solid #04AA6D;
+}
+
+.btn:hover{
+    background:#04AA6D;
+    color:white;
+}
+
+.box{
+    width:300px;
+    height:300px;
+    border:1px solid red;
+    position:absolute; /*absolute allows us to move elements*/
+    color:white;
+}
+
+.box1{
+    top:0;
+    left:0;
+    background:black
+}
+
+.box2{
+    bottom:0;
+    right:0;
+    background:green;
+}
+
+.box3{
+    bottom:0;
+    left:0;
+    background:orange
+}
