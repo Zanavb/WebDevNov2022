@@ -1,45 +1,37 @@
-html,
-body {
+html, body {
     margin: 0;
     padding: 0;
-    /* reset css */
-}
-
-ul {
-    padding: 0;
-}
-
-* {
-    /*any element in document*/
+    /*reset css*/
 }
 
 header {
     text-align: center;
-    /* background: rgb(17, 12, 64); */
-    background: url(bg.jpg);
+    background: url(stars.jpg);
+    background-size: 100%;
     color: whitesmoke;
     padding: 20px;
-    font-family: 'Bebas Neue';
-    font-size: 20pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 nav {
     background: rgb(29, 23, 85);
     color: antiquewhite;
     padding: 5px;
-    /* margin:10px;
-    border:10px solid red; */
     text-align: center;
+}
+
+ul {
+    padding: 0;
+    font-family: ;
 }
 
 li {
     display: inline;
-    margin-right: 5px;
-    font-size: 14pt;
+    margin: 20px;
 }
 
 li:hover {
-    color: chartreuse
+    color: chartreuse;
 }
 
 main {
@@ -47,63 +39,23 @@ main {
 }
 
 article {
-    border-bottom: 1px dashed black;
-    /* width: 300px;
-    height:300px; */
-    /* background:red; */
-    /* outline-style: groove;
-    outline-width: 10px;
-    outline-color: red;
-    border:10px solid green; */
+    width: 300px;
+    height: 300px;
+    background-color: olivedrab;
+    margin: auto;
 }
 
 .icon {
-    font-size: 40pt;
-    color: red;
-  
+    font-size: 30px;
+    color: olivedrab;
 }
 
 .icon:hover {
     color: black;
-    /* -webkit-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75); */
+    box-shadow: 4px 4px black;
 }
 
-.btn{
-    background: white;
-    padding:8px 30px;
-    font-size:14pt;
-    border:2px solid #04AA6D;
-}
-
-.btn:hover{
-    background:#04AA6D;
-    color:white;
-}
-
-.box{
-    width:300px;
-    height:300px;
-    border:1px solid red;
-    position:absolute; /*absolute allows us to move elements*/
-    color:white;
-}
-
-.box1{
-    top:0;
-    left:0;
-    background:black
-}
-
-.box2{
-    bottom:0;
-    right:0;
-    background:green;
-}
-
-.box3{
-    bottom:0;
-    left:0;
-    background:orange
+a {
+    color: antiquewhite;
+    text-decoration: none;
 }

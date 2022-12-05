@@ -7,41 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- 
-        action "/post.php"
-        target "_blank/_self"
-        method ""
-     -->
-    <form action="/post.php" method="POST" target="_self" >
-        <!-- <input type="text" maxlength="10" placeholder="Enter your username" />
-        <input type="password"  minlength="6"  placeholder="Enter your password"/>
-        <input type="text" value="info@micro.com" readonly disabled/>
-        <br/>
-        <input type="checkbox"/>
-        <label>Remember me</label><br/>
+    <!--
+        action "/post.php" -> databank updaten
+        target "_blank/_self" -> pagina openen in nieuw tablad of zelfde tablad
+        method "post/get/delete" -> iets updaten in databank, iets afhalen van databank, iets verwijderen van databank
+    -->
+    <form action="/post.php" method="POST">
+        <label for="">Write Something...</label>
 
-        <input type="radio" name="gender"/>
-        <label>Male:</label>
-        <input type="radio" name="gender"/>
-        <label>Female:</label>
+        <br>
 
-        <br/>
+        <textarea name="" id="" maxlength="250" minlength="10" rows="10" cols="30"></textarea>
 
-        <select>
-            <option>Admin</option>
-            <option>Editor</option>
-            <option>User</option>
-        </select>
-        <br/> -->
+        <br>
 
-        <label>Write something...</label>
-        <br/>
-        <textarea maxlength="250" minlength="10" rows="10" cols="30">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis eos obcaecati reprehenderit aperiam at explicabo, commodi saepe et quibusdam consequatur magni suscipit ratione veniam reiciendis iste totam possimus corporis neque!
-        </textarea>
-        <br/>
-        <input type="button" value="Send it" />
-        <button type="submit">Send it [new]</button>
+        <input type="text" maxlength="10" placeholder="enter your username">
+        <input type="password" placeholder="enter your password">
+        <input type="text" value="info@micro.com" readonly disabled>
+
+        <br>
+    
+        <input type="checkbox">
+        <label for="">Remember me</label>
+        
+        <br>
+
+        <select name="" id=""></select>
+        
+        <br>
+
+        <input type="radio" name="gender">
+        <label for="">Male</label>
+        <input type="radio" name="gender">
+        <label for="">Female</label>
+
+        <br>
+
+
+        <input type="button" value="send it">
+        <!-- of gebruik nieuwe input: button -->
+        <button>send it</button>
     </form>
 </body>
 </html>
