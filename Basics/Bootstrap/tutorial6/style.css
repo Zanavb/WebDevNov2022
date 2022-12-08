@@ -1,0 +1,35 @@
+.bg-color {
+    background-color: #6f7c49;
+}
+
+.btn {
+    background-color: #B4C424;
+}
+
+button:hover {
+    background-color: #6f7c49 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #B4C424;
+}
+
+a:hover {
+    color: #ddf21c
+}
+
+.contactform {
+    box-shadow: -36px 39px 0px -5px rgba(0,0,0,0.11);
+-webkit-box-shadow: -36px 39px 0px -5px rgba(0,0,0,0.11);
+-moz-box-shadow: -36px 39px 0px -5px rgba(0,0,0,0.11);
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(cool-font.ttf);
+}
+
+.display-6 {
+    font-family: myFirstFont !important;
+}
