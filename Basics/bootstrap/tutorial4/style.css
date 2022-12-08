@@ -26,3 +26,8 @@
 #login > .mb-3:nth-child(odd)>input{
     background:purple !important;
 }
+
+
+.bg-customcolor{
+    background-color: rgb(188, 233, 246);
+}
