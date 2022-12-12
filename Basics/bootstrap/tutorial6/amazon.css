@@ -1,0 +1,21 @@
+.col-img{
+    background-color: rgb(210, 209, 209) !important;
+}
+
+.price >p:nth-child(2){
+    text-decoration: line-through !important;
+    color: rgb(124, 32, 32) !important;
+}
+
+.price >p:nth-child(1){
+    font-size: 23pt;
+}
+
+.a-price-symbol,.a-price-fraction {
+    top: -0.75em;
+    font-size: 20px;
+}
+
+.a-price-whole{
+    font-size: 38px;
+}
