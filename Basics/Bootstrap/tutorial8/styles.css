@@ -1,0 +1,59 @@
+.bg-color {
+    background-color: rgb(186, 218, 239);
+}
+
+.btn {
+    color: rgb(186, 218, 239);
+    text-decoration: underline;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: rgb(26, 127, 135) !important; 
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(26, 127, 135);
+    text-decoration: underline;
+}
+
+.color-blue {
+    color:rgb(26, 127, 135);
+}
+
+.bg-color-lightblue {
+    background-color:rgb(232, 245, 254) ;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+}
+
+.articles {
+    display: flex;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.big-image {
+    height: 380px;
+}
+
