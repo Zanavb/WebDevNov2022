@@ -51,15 +51,15 @@ var
 // console.log(y,"after updated value")
 
 
-// var companyname = "Microsoft" // decleration of a variable
-// console.log(companyname)
-// companyname = "Intec"
-// console.log(companyname)
-// // Update 
-// companyname = "Oracle" // update varible value
-// console.log(companyname)
-// var companyname = "The Oracle" // re-decleration // override // re-write
-// console.log(companyname)
+var companyname = "Microsoft" // decleration of a variable
+console.log(companyname)
+companyname = "Intec"
+console.log(companyname)
+// Update 
+companyname = "Oracle" // update varible value
+console.log(companyname)
+var companyname = "The Oracle" // re-decleration // override // re-write
+console.log(companyname)
 
 
 // var name = "Joe"
@@ -72,7 +72,7 @@ var
 // printName()
 
 const token = "asd123" // unique token/password
-token = "4545"
+// token = "4545"
 // no update - no re-decleration
 // constant
 console.log(token)
