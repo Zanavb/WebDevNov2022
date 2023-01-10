@@ -53,15 +53,17 @@ Regular function
 
 */
 
-const myPersonalInfo = {
-    fullname : "John Doe",
-    age: 32,
-    email:'john@john.com',
-    hobbies:['read','play games'],
-    social_links:['codepen','github'],
-    showMyInfo:function(){
-        console.log(`Fullname: ${this.fullname}\nAge: ${this.age}\nEmail: ${this.email}\nHobbies: ${this.hobbies[0],this.hobbies[1]}\nSOcial Links: ${this.social_links[0]}`)
-    }
-}
+// const myPersonalInfo = {
+//     fullname : "John Doe",
+//     age: 32,
+//     email:'john@john.com',
+//     hobbies:['read','play games'],
+//     social_links:['codepen','github'],
+//     showMyInfo:function(){
+//         console.log(`Fullname: ${this.fullname}\nAge: ${this.age}\nEmail: ${this.email}\nHobbies: ${this.hobbies[0],this.hobbies[1]}\nSOcial Links: ${this.social_links[0]}`)
+//     }
+// }
 
-myPersonalInfo.showMyInfo()
+// myPersonalInfo.showMyInfo()
+
+
