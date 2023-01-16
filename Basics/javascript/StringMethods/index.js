@@ -85,5 +85,32 @@ result = FullText.match('intec')
 result = FullText.match(/[a-zA-Z0-9]+/g)
 result = FullText.match(/microsoft/g)
 
+// 13. text.repeat(<number>)
+result = FullText.repeat(3).repeat(5)
+result = "#".repeat(10)
+
+// 14. replace()
+result = result.replace('#','$')
+
+// 15. replaceAll()
+result = result.replaceAll('#','$')
+result = "wwwwwwwwwmicrosoftwwwwwwwwwwwwww".replace(/[a-z]/g,"lol")
+
+var user_email="jimmy@microsoft.com johnny@gmail.com admin@yandex.com"
+var myEmailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/g
+result = [...user_email.matchAll(myEmailRegex)]
+
+function FindAllEmails(stringData){
+    return stringData.match(myEmailRegex)
+}
+
+var myStringData = "abc@intec.com admin@gmail.com"
+
+result = FindAllEmails(user_email)
+
+
+var FindEmails = "bilal@microsoft.com mohammed@gmail.com bilal@gmail.com ara@abc.be prince@brussel.be"
+
+result = FindEmails.match(/[a-zA-Z]+@(gmail.com)/g) // only gmail.com emails
 
 console.log(result)
