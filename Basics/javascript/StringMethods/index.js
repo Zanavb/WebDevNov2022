@@ -113,4 +113,25 @@ var FindEmails = "bilal@microsoft.com mohammed@gmail.com bilal@gmail.com ara@abc
 
 result = FindEmails.match(/[a-zA-Z]+@(gmail.com)/g) // only gmail.com emails
 
-console.log(result)
+// 16. split()
+result = "bilal,ahmed,ara,mohammed, nina,zana,prince,axel"
+result = "a1-b2-3c-d3-e4-f5-7g"
+//result = result.split(' ')
+result = result.split('-')
+result = "a1|b2|b3|b4|b5"
+result = result.split("|");
+
+// 17.trim()
+result = "          hello world              "
+result = result.trim();
+
+// 18 search()
+result = "Microsoft Products".search(/Products/g) // position of the word i search for
+result = "Microsoft Products Products".search("Products") // position index
+
+
+// 19 toString()
+result = ['a','b','c','d','e'].toString()
+
+
+console.log(result, typeof result)
