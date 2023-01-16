@@ -30,11 +30,60 @@
 
 */
 
-var FullText = "Veniam et nulla veniam excepteur aute duis in consequat quis fugiat eu pariatur est enim."
+var FullText = "Veniam et nulla microsoft 001 002 veniam excepteur aute duis microsoft in consequat quis fugiat eu pariatur est microsoft enim."
 var result;
 
 // 1. charAt(position<number>) extract char from a string
+result = FullText.charAt(0)
+result = FullText.charAt(6)
+result = FullText.charAt(10)
 
+// 2. charCodeAt(position<number>)
+result = FullText.charCodeAt(16);
+result = FullText.charCodeAt(5)
+
+// 3. contact(Word<string>) 
+var txt1="Hello";
+result = txt1.concat(" World").concat(" new word").concat(" another word")
+
+// 4. endswith(<string>)
+result = FullText.endsWith("hello") // false
+result = FullText.endsWith("enim.") // true
+
+// 5. startsWidth(searchString<string>)
+result = FullText.startsWith("hello") // false
+result = FullText.startsWith("Veniam") // true
+
+// 6. fromCharCode(utf16<number>)
+result = String.fromCharCode(86)
+result = String.fromCharCode(101);
+result = FullText.charCodeAt(5) // extracted char as utf16
+result = String.fromCharCode(109) // converted utf16 char to utf8
+
+// 7.includes(SearchWord<string>)
+result = FullText.includes("nulla");  // true
+result = FullText.includes("microsoft") // false
+
+// 8. indexOf(word<string>);
+result = FullText.indexOf('microsoft') // first match
+result = FullText.indexOf('intec'); // first match
+result = FullText.lastIndexOf('microsoft') // last match
+
+// 9. substr/substring(startPosition<number>,endPosition<number>)
+result = FullText.substr(0,10)
+result = FullText.substring(10,13)
+
+// 10. toLowerCase() // A => a
+result = "HELLO WORLD".toLowerCase()
+
+// 11. toUpperCase() // a => A
+result = "javascript".toUpperCase();
+
+// 12. match() https://regex101.com/
+result = FullText.match('microsoft');
+result = FullText.match('intec')
+result = FullText.match(/[a-zA-Z0-9]+/g)
+result = FullText.match(/microsoft/g)
 
 
 console.log(result)
