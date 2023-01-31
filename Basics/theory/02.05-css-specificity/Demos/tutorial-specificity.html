@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>specifcity: 0,0,1 (color red)</p>
+
+    <article>
+        <p>specifcity: 0,0,2 (color blue)</p>
+    </article>
+
+    <a class="my-anchor">specificity: 0,1,0 (color green)</p>
+
+    <p class="my-paragraph">specificity: 0,1,1 (color purple)</p>
+
+    
+    <article>
+        <p class="my-paragraph">specificity: 0,1,2 (color lime)</p>
+    </article>
+    
+    <p class="foo my-paragraph">specificity: 0,2,0 (color coral)</p>
+
+    <p id="my-id">specificity 1,0,1 (color lightblue)</p>
+
+    <p class="my-paragraph" id="my-id">specificity 1,1,1 (color black)</p>
+
+    <p class="my-paragraph my-anchor">specificity 1,2,0 (color bisque)</p>
+
+    <p style="font-weight: bold; color: darkgray;" class="my-paragraph my-anchor">specificity 1,0,0,0 (color darkgray)</p>
+
+    <!-- color is overrided with important statement -->
+    <p style="font-weight: bold; color: darkgray;" class="my-paragraph my-anchor deathstar">specificity !important</p>
+
+</body>
+</html>

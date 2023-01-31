@@ -1,0 +1,9 @@
+.contactform {
+    box-shadow: -13px 13px 5px 0px rgba(0, 0, 0, 0.41);
+    -webkit-box-shadow: -13px 13px 5px 0px rgba(0, 0, 0, 0.41);
+    -moz-box-shadow: -13px 13px 5px 0px rgba(0, 0, 0, 0.41);
+}
+
+.terms {
+    word-break: break-words;
+}

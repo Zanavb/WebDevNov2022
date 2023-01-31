@@ -1,0 +1,49 @@
+/*0,0,1*/
+p{
+    color:red;
+}
+
+/* 0,0,2 */
+article p{
+    color: blue;
+}
+
+/*0,1,0*/
+.my-anchor{
+    color: green;
+}
+
+/*0,1,1*/
+p.my-paragraph{
+    color: purple;
+}
+
+/*0,1,2*/
+article p.my-paragraph{
+    color: lime;
+}
+
+/*0,2,0*/
+.foo.my-paragraph{
+    color: coral;
+}
+
+/*1,0,1*/
+p#my-id{
+    color: lightblue;
+}
+
+/*1,1,1*/
+p#my-id.my-paragraph {
+    color: black;
+}
+
+/*1,2,0*/
+p.my-anchor.my-paragraph {
+    color: bisque;
+}
+
+/* !important */
+.deathstar{
+    color: aqua !important;
+}
