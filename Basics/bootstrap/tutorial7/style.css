@@ -1,6 +1,19 @@
-.carousel-item > img
-{
-    height: 50vh;
-    object-fit: cover;
-    object-position:50% 30%;
+.col-3 {
+    box-shadow: 5px 6px 11px 0px rgba(0,0,0,0.29);
+-webkit-box-shadow: 5px 6px 11px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: 5px 6px 11px 0px rgba(0,0,0,0.29);
+}
+
+.bg-color-grey {
+    background-color: rgb(222, 220, 220);
+}
+
+.btn:hover {
+    background-color: grey !important;
+}
+
+.box-shadow {
+    box-shadow: 5px 6px 11px 0px rgba(0,0,0,0.29);
+-webkit-box-shadow: 5px 6px 11px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: 5px 6px 11px 0px rgba(0,0,0,0.29);
 }
